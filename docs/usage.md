@@ -17,3 +17,5 @@ For figure-focused reading:
 ```text
 Use $paper-deep-reading to explain Figure 1 in detail: what each panel is, how to read it, what evidence it provides, and what common misunderstandings a beginner might have.
 ```
+
+See `examples/example-inputs/` for more reusable request examples.

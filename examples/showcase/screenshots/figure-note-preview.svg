@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="620" viewBox="0 0 980 620" role="img" aria-label="Figure note preview">
+  <rect width="980" height="620" fill="#f8fafc"/>
+  <rect x="46" y="40" width="410" height="520" rx="10" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="72" y="82" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#111827">Figure 1</text>
+  <rect x="76" y="112" width="320" height="170" rx="8" fill="#eff6ff" stroke="#bfdbfe"/>
+  <circle cx="130" cy="164" r="12" fill="#ef4444"/>
+  <circle cx="190" cy="164" r="12" fill="#ef4444"/>
+  <circle cx="250" cy="164" r="12" fill="#ef4444"/>
+  <path d="M110 230 C180 190, 260 190, 340 230" fill="none" stroke="#2563eb" stroke-width="8" stroke-linecap="round"/>
+  <text x="76" y="330" font-family="Arial, sans-serif" font-size="15" fill="#334155">Synthetic schematic or extracted figure</text>
+  <rect x="506" y="40" width="430" height="520" rx="10" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="532" y="82" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#111827">Figure Note</text>
+  <rect x="532" y="112" width="360" height="380" rx="8" fill="#f8fafc" stroke="#dbeafe"/>
+  <text x="556" y="150" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#1d4ed8">What it is</text>
+  <text x="556" y="176" font-family="Arial, sans-serif" font-size="14" fill="#334155">A schematic comparing defect placement.</text>
+  <text x="556" y="220" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#1d4ed8">What each panel does</text>
+  <text x="556" y="246" font-family="Arial, sans-serif" font-size="14" fill="#334155">A shows random defects; B shows layered defects.</text>
+  <text x="556" y="290" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#1d4ed8">Meaning</text>
+  <text x="556" y="316" font-family="Arial, sans-serif" font-size="14" fill="#334155">It maps the paper's mechanism before data.</text>
+  <text x="556" y="360" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#1d4ed8">Beginner warning</text>
+  <text x="556" y="386" font-family="Arial, sans-serif" font-size="14" fill="#334155">A schematic is not direct proof by itself.</text>
+</svg>

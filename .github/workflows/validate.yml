@@ -16,3 +16,5 @@ jobs:
         run: python paper-deep-reading/scripts/validate_skill_package.py paper-deep-reading
       - name: Validate example note
         run: python paper-deep-reading/scripts/validate_note_structure.py examples/example-output/example-paper-deep-reading.md
+      - name: Validate showcase note
+        run: python paper-deep-reading/scripts/validate_note_structure.py examples/example-output/mini-materials-paper-deep-reading.md
