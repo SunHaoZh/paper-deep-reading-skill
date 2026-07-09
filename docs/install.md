@@ -56,6 +56,16 @@ For tools that do not document a native skill folder, copy this universal adapte
 adapters/universal/paper-deep-reading-prompt.md
 ```
 
+## Install For Marvis
+
+Use the dedicated Marvis prompt adapter:
+
+```text
+adapters/marvis/paper-deep-reading-marvis-prompt.md
+```
+
+Copy the file content into Marvis custom instructions, prompt templates, project memory, or the closest reusable prompt area supported by your Marvis environment.
+
 ## Optional Dependencies
 
 PDF rendering and extraction may use:

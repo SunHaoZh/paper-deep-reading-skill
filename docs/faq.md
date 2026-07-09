@@ -12,6 +12,10 @@ No. The output is Markdown, but it is optimized for Obsidian callouts, image lin
 
 No. The canonical package is a `SKILL.md` folder, and the repository also includes adapter prompts for Claude Code and general AI tools. See `docs/adapters.md`.
 
+## Does it support Marvis?
+
+Yes, through a dedicated prompt adapter at `adapters/marvis/paper-deep-reading-marvis-prompt.md`. This is a conservative prompt-based adapter, not a claim that Marvis has a documented native `SKILL.md` runtime.
+
 ## What does the MIT License mean?
 
 It means others may use, copy, modify, and redistribute this repository, including commercially, as long as they keep the copyright and license notice. It does not give anyone permission to redistribute copyrighted journal articles processed with the skill.

@@ -42,9 +42,19 @@ If a Claude Code environment does not load skills automatically, use the fallbac
 adapters/claude-code/commands/paper-deep-reading.md
 ```
 
-## Marvis, Marvin, And Other AI Workbenches
+## Marvis
 
-Tool names and extension systems change, and not every tool has a public skill-folder standard. For tools such as Marvis/Marvin-like AI workbenches, use the universal prompt adapter unless the tool documents native `SKILL.md` support:
+At this time, this repository treats Marvis as a prompt-adapter target, not as a confirmed native `SKILL.md` runtime. Use the Marvis adapter:
+
+```text
+adapters/marvis/paper-deep-reading-marvis-prompt.md
+```
+
+Copy it into the Marvis custom instructions, prompt template, project memory, or equivalent reusable instruction area available in your environment.
+
+## Marvin And Other AI Workbenches
+
+Tool names and extension systems change, and not every tool has a public skill-folder standard. For Marvin-like or generic AI workbenches, use the universal prompt adapter unless the tool documents native `SKILL.md` support:
 
 ```text
 adapters/universal/paper-deep-reading-prompt.md

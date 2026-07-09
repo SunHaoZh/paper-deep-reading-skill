@@ -1,6 +1,6 @@
 {
   "name": "paper-deep-reading-skill",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
   "description": "A Codex skill for turning journal papers into beginner-friendly Obsidian deep-reading notes.",
   "license": "MIT",

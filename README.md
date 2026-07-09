@@ -53,11 +53,21 @@ cp -r paper-deep-reading-skill/paper-deep-reading .claude/skills/
 
 See [`docs/adapters.md`](docs/adapters.md) for details and a fallback slash-command prompt.
 
-### Option 3: General AI Tools
+### Option 3: Marvis
+
+For Marvis-style tools, use the dedicated prompt adapter:
+
+```text
+adapters/marvis/paper-deep-reading-marvis-prompt.md
+```
+
+Copy it into Marvis custom instructions, prompt templates, project memory, or the closest reusable prompt area available in your Marvis environment.
+
+### Option 4: General AI Tools
 
 For tools without a native skill directory, copy [`adapters/universal/paper-deep-reading-prompt.md`](adapters/universal/paper-deep-reading-prompt.md) into the tool's custom instructions, prompt library, or project memory.
 
-### Option 4: ZIP Or Release Download
+### Option 5: ZIP Or Release Download
 
 - Repository ZIP: `https://github.com/SunHaoZh/paper-deep-reading-skill/archive/refs/heads/main.zip`
 - Releases: `https://github.com/SunHaoZh/paper-deep-reading-skill/releases`
