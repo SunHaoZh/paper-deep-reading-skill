@@ -1,0 +1,16 @@
+{
+  "name": "paper-deep-reading-skill",
+  "version": "0.1.0",
+  "private": false,
+  "description": "A Codex skill for turning journal papers into beginner-friendly Obsidian deep-reading notes.",
+  "license": "MIT",
+  "scripts": {
+    "validate:skill": "python paper-deep-reading/scripts/validate_skill_package.py paper-deep-reading",
+    "validate:example": "python paper-deep-reading/scripts/validate_note_structure.py examples/example-output/example-paper-deep-reading.md"
+  },
+  "dependencies": {
+    "marked": "^13.0.3",
+    "playwright": "^1.45.0"
+  },
+  "devDependencies": {}
+}
