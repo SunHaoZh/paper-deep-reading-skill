@@ -1,5 +1,11 @@
 # Installation
 
+## Download Options
+
+- Git clone: `git clone https://github.com/SunHaoZh/paper-deep-reading-skill.git`
+- ZIP download: `https://github.com/SunHaoZh/paper-deep-reading-skill/archive/refs/heads/main.zip`
+- Releases: `https://github.com/SunHaoZh/paper-deep-reading-skill/releases`
+
 ## Install For Codex
 
 Copy the `paper-deep-reading` folder into your Codex skills directory.
@@ -17,6 +23,38 @@ Copy-Item -Recurse .\paper-deep-reading "$env:USERPROFILE\.codex\skills\"
 ```
 
 Restart Codex if the skill does not appear immediately.
+
+## Install For Claude Code
+
+Claude Code can use Agent Skills with `SKILL.md`.
+
+User-level:
+
+```bash
+mkdir -p ~/.claude/skills
+cp -r paper-deep-reading ~/.claude/skills/
+```
+
+Project-level:
+
+```bash
+mkdir -p .claude/skills
+cp -r paper-deep-reading .claude/skills/
+```
+
+Fallback prompt:
+
+```text
+adapters/claude-code/commands/paper-deep-reading.md
+```
+
+## Install For General AI Tools
+
+For tools that do not document a native skill folder, copy this universal adapter into the tool's prompt library or custom instructions:
+
+```text
+adapters/universal/paper-deep-reading-prompt.md
+```
 
 ## Optional Dependencies
 

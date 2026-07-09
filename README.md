@@ -1,6 +1,6 @@
 # Paper Deep Reading Skill
 
-A Codex skill for turning journal paper PDFs into beginner-friendly Obsidian deep-reading notes.
+A portable agent skill for turning journal paper PDFs into beginner-friendly Obsidian deep-reading notes.
 
 It is designed for students, new researchers, and R&D teams who need to read one difficult paper carefully: paragraph translation, figure interpretation, beginner concept support, question logs, and shareable PDF exports.
 
@@ -14,9 +14,11 @@ It is designed for students, new researchers, and R&D teams who need to read one
 - A deduplicated learning question log.
 - Optional PDF export.
 
-## Quick Install
+## Download And Install
 
-Clone this repository and copy the skill folder into your Codex skills directory:
+Choose the entry that matches your tool.
+
+### Option 1: Codex
 
 ```bash
 git clone https://github.com/SunHaoZh/paper-deep-reading-skill.git
@@ -36,6 +38,31 @@ Then ask Codex:
 Use $paper-deep-reading to create an Obsidian deep-reading note from this journal paper PDF. Explain it for a beginner, place figures in context, maintain a question log, and export a PDF.
 ```
 
+### Option 2: Claude Code
+
+Claude Code supports Agent Skills with `SKILL.md`. Copy the same skill folder into one of these locations:
+
+```bash
+# User-level skill
+cp -r paper-deep-reading-skill/paper-deep-reading ~/.claude/skills/
+
+# Project-level skill
+mkdir -p .claude/skills
+cp -r paper-deep-reading-skill/paper-deep-reading .claude/skills/
+```
+
+See [`docs/adapters.md`](docs/adapters.md) for details and a fallback slash-command prompt.
+
+### Option 3: General AI Tools
+
+For tools without a native skill directory, copy [`adapters/universal/paper-deep-reading-prompt.md`](adapters/universal/paper-deep-reading-prompt.md) into the tool's custom instructions, prompt library, or project memory.
+
+### Option 4: ZIP Or Release Download
+
+- Repository ZIP: `https://github.com/SunHaoZh/paper-deep-reading-skill/archive/refs/heads/main.zip`
+- Releases: `https://github.com/SunHaoZh/paper-deep-reading-skill/releases`
+- Git clone: `https://github.com/SunHaoZh/paper-deep-reading-skill.git`
+
 ## Repository Layout
 
 ```text
@@ -45,6 +72,7 @@ paper-deep-reading/
   references/
   scripts/
   assets/
+adapters/
 docs/
 examples/
 ```
@@ -87,4 +115,4 @@ python paper-deep-reading/scripts/validate_note_structure.py examples/example-ou
 
 ## License
 
-MIT
+MIT. See [`docs/license.md`](docs/license.md) for a plain-language explanation.
