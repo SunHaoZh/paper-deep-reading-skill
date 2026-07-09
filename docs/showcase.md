@@ -1,8 +1,24 @@
 # Showcase
 
-This page shows what the skill is expected to produce. The examples are synthetic and copyright-safe; they demonstrate structure, not claims from a real paper.
+This page shows what the skill is expected to produce. The first screenshots are sanitized excerpts from a real Obsidian reading note. Original publisher figures and long copyrighted text are not included in the public showcase.
 
-## Result Preview
+## Real Note Screenshots
+
+### Main Note Overview
+
+![Real note overview](../examples/showcase/screenshots/real-note-overview.png)
+
+### Figure Note Style
+
+![Real figure note](../examples/showcase/screenshots/real-figure-note.png)
+
+### Learning Question Log
+
+![Real question log](../examples/showcase/screenshots/real-question-log.png)
+
+## Synthetic Preview Assets
+
+The synthetic previews remain available for copyright-safe demonstrations and design checks.
 
 ![Obsidian note preview](../examples/showcase/screenshots/obsidian-note-preview.svg)
 

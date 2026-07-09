@@ -21,11 +21,14 @@ See the public examples before installing:
 | Artifact | What it shows |
 |---|---|
 | [`docs/showcase.md`](docs/showcase.md) | A guided overview of expected outputs and screenshots. |
+| [`examples/showcase/screenshots/real-note-overview.png`](examples/showcase/screenshots/real-note-overview.png) | Sanitized screenshot from a real AlScN Obsidian deep-reading note. |
+| [`examples/showcase/screenshots/real-figure-note.png`](examples/showcase/screenshots/real-figure-note.png) | Sanitized screenshot showing the real figure-note style. |
+| [`examples/showcase/screenshots/real-question-log.png`](examples/showcase/screenshots/real-question-log.png) | Sanitized screenshot showing the real learning question log. |
 | [`examples/example-inputs/`](examples/example-inputs/) | Example user requests for deep reading, figure reading, and group discussion. |
 | [`examples/example-output/mini-materials-paper-deep-reading.md`](examples/example-output/mini-materials-paper-deep-reading.md) | A compact Obsidian-style deep-reading note based on a synthetic paper. |
 | [`examples/example-output/mini-materials-question-log.md`](examples/example-output/mini-materials-question-log.md) | A deduplicated learning question log. |
-| [`examples/showcase/screenshots/obsidian-note-preview.svg`](examples/showcase/screenshots/obsidian-note-preview.svg) | Visual preview of the note layout. |
-| [`examples/showcase/screenshots/figure-note-preview.svg`](examples/showcase/screenshots/figure-note-preview.svg) | Visual preview of detailed figure-note output. |
+| [`examples/showcase/screenshots/obsidian-note-preview.svg`](examples/showcase/screenshots/obsidian-note-preview.svg) | Synthetic visual preview of the note layout. |
+| [`examples/showcase/screenshots/figure-note-preview.svg`](examples/showcase/screenshots/figure-note-preview.svg) | Synthetic visual preview of detailed figure-note output. |
 
 ## Download And Install
 
